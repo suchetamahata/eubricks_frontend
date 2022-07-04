@@ -111,7 +111,7 @@ function TodoList() {
         removeTodo={removeTodo}
         updateTodo={updateTodo}
       />
-      <button onClick={SubmitHandler}> Submit </button>
+      <button onClick={SubmitHandler} className='saveButton'> Save  </button>
     </div>
   );
 }
